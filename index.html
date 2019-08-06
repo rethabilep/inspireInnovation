@@ -1,0 +1,585 @@
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129780496-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-129780496-1');
+    </script>
+
+    <!--GSuite verification do not delete-->
+    <meta name="google-site-verification" content="i9q6OFNVDARRi7wopk3Rmc7Blzem-bjRbRrUDLB-BGs" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="image/png" href="img/favicon.png">
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <title>Inspire Innovation Business Consultants</title>
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+    <!--For cross-browser support-->
+    <link href="styles/fonts/Biko/font.css" rel="stylesheet">
+    <link href="styles/fonts/Lato/font.css" rel="stylesheet">
+    <link href="styles/fonts/Lato-Bold/font.css" rel="stylesheet">
+    <link href="styles/fonts/Lato-Bold-ext/font.css" rel="stylesheet">
+    <!--Desktop Styles-->
+    <link href="styles/style.css" type="text/css" rel="stylesheet">
+    <!--Mobile Styles-->
+    <link href="styles/mobileStyle.css" type="text/css" rel="stylesheet">
+    <link href="styles/vendor/normalize.css" type = "text/css" rel="stylesheet">
+    <!--Grid.styles-->
+    <link href ="styles/vendor/grid.css" type = "text/css" rel ="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+    <!-- <script src="scripts/googleMap.scripts"></script> -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXVnXC6PQx3DRy2eWXE4fknCjZcfUtGjI&callback=myMap"></script>
+</head>
+<body class="main">
+<header>
+    <i id ="menu" class="fa fa-navicon" ></i>
+    <a id="logoContainer" href="index.html">
+        <img id="icon" src="img/logo_icon.png" alt="icon">
+        <img id="logo_text" src = "img/logo_text.png" alt="logo_text">
+    </a>
+    <div id="Side_menu">
+        <div id="dropdown_content">
+            <a class="dropdown_item" id="sd-home" href="#home">Home</a>
+            <a class="dropdown_item" id="sd-about" href="#about">Services</a>
+            <a class="dropdown_item" id="sd-team" href="#team">Team</a>
+            <a class="dropdown_item" id="sd-resources" href="#resources">Resources</a>
+            <a class="dropdown_item" id="sd-contacts" href="#contacts">Contact Us</a>
+        </div>
+    </div>
+</header>
+<section id="home" >
+    <div class="centered">
+        <h1 id = "homeText">
+            <strong>
+                We are a professional services company that provides <em id="hmConsultancy">advisory services</em>
+                (business, management and development advisory services), <em id="hmResearch">research & insights</em>,
+                and <em id="hmLearning">learning solutions.</em> Our mission is to partner with and to capacitate our
+                clients to solve complex problems.
+            </strong>
+        </h1>
+        <div class="learn-more">
+            <button id="learn-more" class="btn-full">Learn More</button>
+            <!-- The Homepage Modal -->
+            <div class="modal">
+                <!-- Modal content -->
+                <div class="modalContent">
+                    <span class="close">&times;</span>
+                    <div class="modal-body">
+                        <div class="modal-row">
+                            <div class="modal-column">
+                                <div class="modal-name">
+                                    <img class="modal-image" src="img/approach.png" alt="icon">
+                                    <h5>Approach</h5>
+                                </div>
+                                <p class="modal-p">It is our belief that organisations ahould not solely rely on consultants and that consultants should only be needed on the short term or in extra ordinary circumstances</p>
+                            </div>
+                            <div class="modal-column">
+                                <div class="modal-name">
+                                    <img class="modal-image" src="img/vision.png" alt="icon">
+                                    <h5>Vision</h5>
+                                </div>
+                                <p class="modal-p">To be a leader in providing innovative business solution to entrepreneurs in Africa</p>
+                            </div>
+
+                            <div class="modal-column">
+                                <div class="modal-name">
+                                    <img class="modal-image" src="img/mission.png" alt="icon">
+                                    <h5>Mission</h5>
+                                </div>
+                                <p class="modal-p">To partner with our clients in solving business problems by providing consultancy, research & insights and training solutions </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section >
+<section id="about" >
+    <h2 class="pageHeading">Services</h2>
+    <img alt="background_vector" id="vectorImage" src="img/VECTOR.png">
+    <div class="Tabs">
+        <div class="tab-container">
+            <button id ="btnConsultancy" class="tab-heading selected"><strong>Advisory Services</strong></button>
+            <button id ="btnLearning" class="tab-heading" ><strong>Learning Solutions</strong></button>
+            <button id= "btnResearch" class="tab-heading" ><strong>Research & Insights</strong></button>
+        </div>
+        <br/>
+        <div id="Consultancy" class="tab">
+            <p>Our consulting services comprise of business consulting and economic advisory services. Our aim is to help organisations
+                to solve their biggest challenges and to realise their growth potential. We partner with our clients to give them access
+                to our network of highly skilled professionals and we offer some of the following services:</p>
+            <div class="modal-left-subdiv">
+                <ul>
+                    <li>Accounting and Tax Services</li>
+                    <li>Business proposals and financial models</li>
+                    <li>Systems and processes</li>
+                    <li>Corporate Governance</li>
+                    <li>Risk Management</li>
+                    <li>Product Development</li>
+                    <li>Digital Transformation</li>
+                    <li>Data Collection and Analytics</li>
+                    <li>Strategy</li>
+                </ul>
+            </div>
+        </div>
+        <div id="Learning" class="tab" >
+            <p>We have combined our technology (learning platform), our content, our partnerships and our expertise to form Inspire
+                Learning Solutions to achieve one of our goals of capacitating individuals and organizations with the skills to solve
+                complex business problems. We do this through two distinct offerings:</p>
+            <div class="columns">
+                <div class="column-curve">
+                    <h4 title="Click to learn more" id="lrnPlatform" class="learning-service">Inspire Learning Platform</h4>
+                    <h4 title="Click to learn more" id="lrnClientSolutions" class="learning-service">Client-specific solutions</h4>
+                </div>
+            </div>
+            <div class="columns">
+                <div id = "description" class="column-curve">
+                    <div id = "Platform" class="thumbnail_align">
+                        <p>We design custom learning content based on our client's specific needs and we deliver this content through our
+                            learning facilitators and we provide clients an opportunity to make this content available in their organisation
+                            through our learning platform. Clients also have the option of utilizing our platform to host content that they
+                            have developed themselves</p>
+                    </div>
+                    <div id= "ClientSolutions" class="thumbnail_align">
+                        <p>We partner with leading learning providers internationally to bring our clients skills development and training in
+                            professional (core skills) and technical skills. We deliver these services through a blended learning model
+                            (face-to-face and online). Our goal is to provide a learning platform on which our clients can access business
+                            related learning content</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Research" class="tab" >
+            <p>Through our research and insights service-offering, we aim to contribute to knowledge and understanding of Africa's
+                entrepreneurship, technology and innovation landscape. Our research is aimed at providing in-depth knowlege on that
+                can enable our clients to navigate how to do business in Africa. We also do client-commissioned research and
+                feasibility studies based on client-specific needs. Some of our offerings are as follows:</p>
+
+            <div class="modal-left-subdiv">
+                <ul>
+                    <li>Research publications</li>
+                    <li>Feasibility studies</li>
+                    <li>Market research and insights</li>
+                </ul>
+                <!--<button class="btn-full">Read More <i class="fa fa-play" style="font-size:16px; color:white"></i></button>-->
+            </div>
+        </div>
+    </div>
+</section>
+<section id="team" >
+    <h2 class="pageHeading">Our Team</h2>
+    <div class="our-team">
+        <p>
+            We have in-house consultants and specialists as well as a network of professionals who are engaged on a project basis to
+            deliver the highest quality services in an affordable way to our clients.
+        </p>
+    </div>
+    <div class="profile profile1">
+        <div class="profileImageCircle">
+            <img alt ="profile picture" src="img/likeleli.jpg">
+        </div>
+        <p class="teamMemberName">Likeleli Monyamane</p>
+        <p class="teamMemberTitle">Director: Business & Management Advisory Services </p>
+        <button id="profile1" class="btnBio">Biography <i class="fa fa-play"></i></button>
+        <!-- The Biography Modal -->
+        <div class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="modal-body">
+                    <div class="modal-left">
+                        <div class="modal-left-content">
+                            <h4>About Likeleli Monyamane</h4>
+                            <p>
+                                I am a qualified Chartered Accountant registered with the South African Institute of Chartered Accountants and a member of the
+                                Lesotho Institute of Accountants. I am a current MBA student at the African Leadership University, Rwanda. I previously worked
+                                at Pricewaterhouse Coopers and South African Breweries where I gained experience in professional services and financial planning.
+                                I have worked in some of the following countries; South Africa, Lesotho, Mozambique and Ireland and have served clients from other geographies remotely.
+                            <br/>
+                                I have been involved in various leadership, governance and oversight roles (voluntary and paid) including serving as the youngest
+                                member of the Council of the University of the Free State and on its Risk and Audit Committee. I am a member of the Association for
+                                the advancement of Black Accountants in Southern Africa and served as its first female Chairperson of the Free State Branch.
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="modal-right">
+                        <img alt="profile picture" class="profilePic" src="img/likeleli.jpg">
+                        <h4>Likeleli Monyamane</h4>
+                        <h5>Chartered Accountant (SAICA)</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="profile profile2">
+        <div class="profileImageCircle">
+            <img alt="profile picture" src="img/mamoabi.jpg"/>
+            <h4>Mamoabi Kolobe </h4>
+            <h5></h5>
+        </div>
+        <p class="teamMemberName">'Mamoabi Kolobe</p>
+        <p class="teamMemberTitle"> Director: Research & Development Advisory Services</p>
+        <button id="profile2" class="btnBio">Biography <i class="fa fa-play"></i></button>
+        <!-- The Biography Modal -->
+        <div class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="modal-body">
+                    <div class="modal-left">
+                        <div class="modal-left-content">
+                            <h4>About Mamoabi Kolobe</h4>
+                            <p>
+                                I am an Economic Advisor with over ten years of experience in Management, Research and Development.
+                                As a Rhodes Scholar with two Postgraduate degrees from Oxford University, I bring a deep understanding
+                                of identification and development of business opportunities, and profitable management of projects from
+                                inception to completion.
+                                <br/>
+                                I have served on a number of Organisational Boards as an Economist, and I am a member of various Research
+                                Groups and Professional Associations, such as the Black Association of Rhodes Scholars, Oxford Transitional Justice Research,
+                                Rhodes Scholars Southern African Forum and the Economic Society of Lesotho.
+                            <br/>
+                                I am a frequent member and speaker at various development and policy-maker forums and platforms globally, and I consistently teamed
+                                up with leaders, economists and policymakers on plans and strategies related to inclusive growth and overall opportunities for development.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="modal-right">
+                        <img alt="profile picture" class="profilePic" src="img/mamoabi.jpg">
+                        <br/>
+                        <h4>Mamoabi Kolobe</h4>
+                        <h5></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="profile profile3">
+        <div class="profileImageCircle">
+            <img alt ="profile picture" src="img/avatar.png">
+        </div>
+        <p class="teamMemberName"><h5>Lorem Ipsum</h5>
+        <p class="teamMemberTitle">Lorem</p>
+        <button id="profile3" class="btnBio">Biography <i class="fa fa-play"></i></button>
+        <!-- The Biography Modal -->
+        <div class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="modal-body">
+                    <div class="modal-left">
+                        <div class="modal-left-subdiv">
+                            <h3> Experience</h3>
+                            <h4>Employment</h4>
+                            <h5>Pricewaterhouse Coopers - 2011 to 2014</h5>
+                            <ul>
+                                <li>Trainee Accountant:</li>
+                                <li>Audit and Systems and Process Assuarance</li>
+                            </ul>
+                            <br/>
+                            <ul>
+                                <li>Assistant Manager:</li>
+                                <li>Audit Insurance</li>
+                            </ul>
+                            <br/>
+                            <ul>
+                                <li>Vice-Chairperson:</li>
+                                <li>Employment Equity Forum</li>
+                            </ul>
+                            <br/>
+                            <p>
+                                South African Breweries - 2014 to 2015
+                            </p>
+                            <ul>
+
+                                <li>Financial Planner:Central South Region</li>
+                                <li>(Bloemfontein, Kimberley and Kuruman)</li>
+                            </ul>
+
+                        </div>
+                        <div class="modal-right-subdiv">
+                            <h3>Other Experience</h3>
+                            <h5>Association for the advancement of Black Accounts(ABASA)- Free State Branch</h5>
+                            <ul>
+                                <li>Treasurer (2012-2013)</li>
+                                <li>Member of the Advisory Board (Current)</li>
+                                <li>ABASA Leadership Programme Coordinator (Current)</li>
+                            </ul>
+                            <br/>
+                            <h5>University of Free State(UFS)</h5>
+                            <ul>
+                                <li>Memeber of Council (Current)</li>
+                                <li>Audit and Risk Committee Member (Current)</li>
+                                <li>Finance Committee Member(Current)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="modal-right">
+                        <img alt="profile picture" class="profilePic" src="img/avatar.png">
+                        <h4>Lorem Ipsum</h4>
+                        <h5></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--<section id="clients">-->
+<!--<h3>Our Clients</h3>-->
+<!--<div class="row">-->
+<!--<div class="column">-->
+<!--<div class="client-name">-->
+<!--<h5>DHL</h5>-->
+<!--</div>-->
+<!--<img src="img/dhl1.png" alt="client-logo">-->
+<!--</div>-->
+<!--<div class="column">-->
+<!--<div class="client-name">-->
+<!--<h5>Alliance Insuarance</h5>-->
+<!--</div>-->
+<!--<img src="img/alliance1.jpg" alt="client-logo">-->
+<!--</div>-->
+<!--<div class="column">-->
+<!--<div class="client-name">-->
+<!--<h5>Thari Mutual</h5>-->
+<!--</div>-->
+<!--<img src="img/thari.png" alt="client-logo">-->
+<!--</div>-->
+<!--<div class="column">-->
+<!--<div class="client-name">-->
+<!--<h5>Afri-Expo</h5>-->
+<!--</div>-->
+<!--<img src="img/afriexpo1.png" alt="client-logo">-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="row" id="row-bottom">-->
+<!--<div class="column">-->
+<!--<div class="client-name">-->
+<!--<h5>Inspire Innovation</h5>-->
+<!--</div>-->
+<!--<img src="img/inspire2.png" alt="client-logo">-->
+<!--</div>-->
+<!--<div class="column">-->
+<!--<div class="client-name">-->
+<!--<h5>Entrepreneurs Network</h5>-->
+<!--</div>-->
+<!--<img src="img/entrepreneurs.png" alt="client-logo">-->
+<!--</div>-->
+<!--<div class="column">-->
+<!--<div class="client-name">-->
+<!--<h5>Inspire Innovation</h5>-->
+<!--</div>-->
+<!--<img src="img/inspire.png" alt="client-logo">-->
+<!--</div>-->
+
+<!--<div class="column">-->
+<!--<div class="client-name">-->
+<!--<h5>Magnificent Interiors</h5>-->
+<!--</div>-->
+<!--<img src="img/magnificent1.jpg" alt="client-logo">-->
+<!--</div>-->
+<!--</div>-->
+<!--&lt;!&ndash;  <div class="carousel">-->
+<!--<h3>Client Reviews</h3>-->
+<!--<div class="mySlides">-->
+<!--<h4>DHL</h4>-->
+<!--<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>-->
+<!--</div>-->
+<!--<div class="mySlides">-->
+<!--<h4>Alliance Insurance</h4>-->
+<!--<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>-->
+<!--</div>-->
+<!--<div class="mySlides">-->
+<!--<h4>Magnificent Interiors</h4>-->
+<!--<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>-->
+<!--</div>-->
+<!--</div> &ndash;&gt;-->
+
+<!--</section>-->
+<section id="resources" >
+    <h2 class="pageHeading">Resources</h2>
+    <p class="description"> Welcome to our resources page! This is where we share with you resources that we believe will be useful to your business.
+        Here you will find templates for some common business documents, reports from our research and other publications </p>
+    <div id="resourcesContainer">
+        <div id ="resourceGrid">
+            <div class=category>
+                <div class=" folder">
+                    <h3 class="folderTitle">Templates</h3>
+                    <i class="fa fa-folder"></i>
+                </div>
+                <ul class="resourceList">
+                    <li id="res1" class="resource">
+                        <p class="resourceTitle">Business Plan</p>
+                        <!--TODO: Find an actual business plan-->
+                    </li>
+                    <li id="res2" class="resource">
+                        <p class="resourceTitle">Income Statement</p>
+                    </li>
+                    <li id="res3" class="resource">
+                        <p class="resourceTitle">Investor Pitch Deck</p>
+                    </li>
+                </ul>
+            </div>
+            <!--<div class=category>-->
+            <!--<div class=" folder">-->
+            <!--<h3 class="folderTitle">Publications</h3>-->
+            <!--<i class="fa fa-folder"></i>-->
+            <!--</div>-->
+            <!--<ul class="resourceList">-->
+
+            <!--</ul>-->
+            <!--</div>-->
+            <!--<div class=category>-->
+            <!--<div class=" folder">-->
+            <!--<h3 class="folderTitle">Reports</h3>-->
+            <!--<i class="fa fa-folder"></i>-->
+            <!--</div>-->
+            <!--<ul class="resourceList">-->
+            <!--</ul>-->
+            <!--</div>-->
+        </div>
+        <div id ="resourcePreview">
+            <div id="previewScreen">
+                <div id="preview">
+                    <h3> Click on a filename to preview here</h3>
+                </div>
+            </div>
+            <div id ="previewIcons">
+                <a id="previewDownloadIcon" title="Download" href="" class ="previewIcon" download><i class="fa fa-download"></i></a>
+                <a id="previewViewIcon" title = "Open in another tab" href="" target="_blank" class ="previewIcon"><i class="fa fa-eye"></i></a>
+                <!--TODO:create social sharing options-->
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contacts"  >
+    <h2 class="pageHeading">Contact Us</h2>
+    <div class="contact-details-mobile">
+        <ul>
+            <li>5A Happy Villa</li>
+            <li>Maseru</li>
+            <li>Lesotho</li>
+        </ul>
+        <ul>
+            <li class ="telephone"><i class="fa fa-phone"></i>  +266 509 21 560</li>
+            <li class ="email"><i class="fa fa-envelope"></i>  info@inspireinnovation.co.ls</li>
+        </ul>
+    </div>
+    <div id="map-mobile">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3478.616042940995!2d27.469463714529926!3d-29.322936482150414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e8dcbc6d38c4c61%3A0x2edf1b692efe78e5!2sInspire+Innovation!5e0!3m2!1sen!2sls!4v1541498324563"  frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <div class="contact-us">
+        <form action="php/contact.php" method="post">
+            <label for="name"></label>
+            <input type="text" id="name" name="fullname" placeholder="Full Name*">
+
+            <label for="email"></label>
+            <input type="text" id="email" name="email" placeholder="Email*">
+
+            <label for="company"></label>
+            <input type="text" id="company" name="company" placeholder="Company">
+
+            <label for="subject"></label>
+            <input type="text" id="subject" name="subject" placeholder="Subject*">
+
+            <label for="message"></label>
+            <textarea id="message" name="message" placeholder="Message*"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+        <div class="contact-details">
+            <div class="contact-details-left">
+                <h4>Maseru</h4>
+                <ul>
+                    <li>5A Happy Villa</li>
+                    <li>Maseru</li>
+                    <li>Lesotho</li>
+                </ul>
+                <br/>
+                <ul>
+                    <li class ="telephone"><i class="fa fa-phone"></i>  +266 509 21 560</li>
+                    <li class ="email"><i class="fa fa-envelope"></i>  info@inspireinnovation.co.ls</li>
+                </ul>
+            </div>
+            <div class="contact-details-right">
+                <h4>Bloemfontein</h4>
+                <ul>
+                    <li>36 First Avenue, Westdene</li>
+                    <li>Bloemfontein</li>
+                    <li>9301</li>
+                </ul>
+                <br/>
+                <ul>
+                    <li><i class="fa fa-facebook-official"></i></li>
+                    <li><i class="fa fa-instagram"></i></li>
+                    <li><a href="https://twitter.com/InspireInnov8"><i class="fa fa-twitter"> InspireInnov8</i></a></li>
+                    <!--TODO: Add working social media accounts-->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3478.616042940995!2d27.469463714529926!3d-29.322936482150414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e8dcbc6d38c4c61%3A0x2edf1b692efe78e5!2sInspire+Innovation!5e0!3m2!1sen!2sls!4v1541498324563"  frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+</section>
+<div id="indicator" dir="rtl">
+    <ul>
+        <li class="sections" id="ind-home">HOME</li>
+        <li class="sections" id="ind-about">SERVICES</li>
+        <li class="sections" id="ind-team">TEAM</li>
+        <!--<li class="sections" id="ind-clients">CLIENTS</li>-->
+        <li class="sections" id="ind-resources">RESOURCES</li>
+        <li class="sections" id="ind-contacts">CONTACTS</li>
+    </ul>
+</div>
+<footer>
+    <p class="left-footer"><i class="fa fa-copyright"></i> 2018 Inspire Innovation</p>
+    <p class="right-footer">
+        <a id="redirectToContacts"><i class="fa fa-envelope" style="color:rgb(0,128,128)"></i>
+            Contact Us</a>
+        <!--<i class="fa fa-check" style="color:rgb(0,128,128)"></i>-->
+        <!--Subscribe-->
+        <a id="share-site"><i class="fa fa-share-alt" style="color:rgb(0,128,128)"></i>
+            Share Page</a>
+    </p>
+    <div id="social-sharing"
+         data-widget-type="LpShareReact">
+        <a class="social-sharing-item" target="_blank" rel="noopener noreferrer"
+           data-alternate-url="" data-publish-url="" data-share-type="facebook"
+           href="http://www.facebook.com/sharer/sharer.php?u=https://www.inspireinnovation.co.ls/">
+            <i class="fa fa-facebook"></i>
+        </a>
+        <a class="social-sharing-item" target="_blank" rel="noopener noreferrer"
+           data-alternate-url="" data-publish-url="" data-share-type="twitter"
+           href="http://www.twitter.com/intent/tweet?url=https://www.inspireinnovation.co.ls/">
+            <i class="fa fa-twitter"></i>
+        </a>
+        <a class="social-sharing-item" target="_blank" rel="noopener noreferrer"
+           data-alternate-url="" data-publish-url="" data-share-type="linkedin"
+           href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.inspireinnovation.co.ls/">
+            <i class="fa fa-linkedin"></i>
+        </a>
+    </div>
+</footer>
+<script src="scripts/moveSections.js"></script>
+<script src="scripts/dropdownMenu.js"></script>
+<script src ="scripts/modal.js"></script>
+<script src ="scripts/homeModal.js"></script>
+<script src ="scripts/resources.js"></script>
+<script src="scripts/services.js"></script>
+<script src="scripts/carousel.js"></script>
+<script src="scripts/share.js"></script>
+</body>
+</html>
